@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    var space="&nbsp;"
+   /* for(var i=1;i<=9;i++){
+        for(var k=i;k<=9;k++){
+            var sp;
+            if(i*k<10){
+              sp=space+space+space;
+            }else{
+                sp=space;
+            }
+            document.writeln(i+"*"+k+"="+(i*k)+sp);
+        }
+        document.write("<br/>");
+    }*/
+    /*for(var i=1;i<=9;i++){
+         for(var k=1;k<=i;k++){
+            var sp;
+            if(i*k<10){
+              sp=space+space+space;
+            }else{
+                sp=space;
+            }
+            document.writeln(i+"*"+k+"="+(i*k)+sp);
+         }
+         document.write("<br/>");
+    }*/
+    /*for(var i=1;i<=9;i++){
+        for(var j=1;j<=9-i;j++){
+            var s;
+            s=space+space+space+space+space+space+space+space+space+space+space+space+space
+            +space;
+            document.write(s);
+        }
+         for(var k=1;k<=i;k++){
+            var sp;
+            if(i*k<10){
+              sp=space+space+space;
+            }else{
+                sp=space;
+            }
+            document.writeln(i+"*"+k+"="+(i*k)+sp);
+         }
+         document.write("<br/>");
+    }*/
+    for(var i=9;i>=1;i--){
+        for(var j=1;j<=9-i;j++){
+            var s;
+            s=space+space+space+space+space+space+space+space+space+space+space+space+space
+            +space;
+            document.write(s);
+        }
+         for(var k=1;k<=i;k++){
+            var sp;
+            if(i*k<10){
+              sp=space+space+space;
+            }else{
+                sp=space;
+            }
+            document.writeln(i+"*"+k+"="+(i*k)+sp);
+         }
+         document.write("<br/>");
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
